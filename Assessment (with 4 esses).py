@@ -1,5 +1,3 @@
-"""I've added my docstring at the top!!!!! I've uploaded my changes to GitHub"""
-
 creatures = {
     "Stoneling": {"Strength": 7, "Speed": 1, "Stealth": 25, "Cunning": 15},
     "Vexscream": {"Strength": 1, "Speed": 6, "Stealth": 21, "Cunning": 19},
