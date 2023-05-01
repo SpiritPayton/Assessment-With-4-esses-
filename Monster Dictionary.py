@@ -1,4 +1,4 @@
-creatures = {
+monsters = {
     "Stoneling": {"Strength": 7, "Speed": 1, "Stealth": 25, "Cunning": 15},
     "Vexscream": {"Strength": 1, "Speed": 6, "Stealth": 21, "Cunning": 19},
     "Dawnmirage": {"Strength": 5, "Speed": 15, "Stealth": 18, "Cunning": 22},
@@ -10,3 +10,4 @@ creatures = {
     "Froststep": {"Strength": 14, "Speed": 14, "Stealth": 17, "Cunning": 4},
     "Wispghoul": {"Strength": 17, "Speed": 19, "Stealth": 3, "Cunning": 2}
 }
+
