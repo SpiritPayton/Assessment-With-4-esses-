@@ -1,3 +1,8 @@
+"""dictionary of all the monster cards and their stats
+"""
+import easygui
+
+
 monsters = {
     "Stoneling": {"Strength": 7, "Speed": 1, "Stealth": 25, "Cunning": 15},
     "Vexscream": {"Strength": 1, "Speed": 6, "Stealth": 21, "Cunning": 19},
@@ -11,3 +16,4 @@ monsters = {
     "Wispghoul": {"Strength": 17, "Speed": 19, "Stealth": 3, "Cunning": 2}
 }
 
+easygui.msgbox(monsters)
