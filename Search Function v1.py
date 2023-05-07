@@ -1,9 +1,10 @@
-"""dictionary of all the monster cards and their stats
+"""This is the search function to search for existing monster cards on the catalogue
 """
+
 import easygui
 
 
-monsters = {
+monster_dict = {
     "Stoneling": {"Strength": 7, "Speed": 1, "Stealth": 25, "Cunning": 15},
     "Vexscream": {"Strength": 1, "Speed": 6, "Stealth": 21, "Cunning": 19},
     "Dawnmirage": {"Strength": 5, "Speed": 15, "Stealth": 18, "Cunning": 22},
@@ -16,17 +17,12 @@ monsters = {
     "Wispghoul": {"Strength": 17, "Speed": 19, "Stealth": 3, "Cunning": 2}
 }
 
-easygui.msgbox(monsters)
-# 亲爱的天父 我们的心感谢您
-# 性爱的天赋
-#闺蜜啥
-# 非常的不好了吗了啊
 
-import easygui
-
-easygui.buttonbox("Rawrrrrrr! what do you want to do?", "obliviate")
-
-# 亲爱的天父我们的心感谢您
-
-we real hot girl sh!
-
+while True:
+    option = easygui.buttonbox("Grrrrr! How can I help you with your Monster Card collection?",
+                               "sdasdasd", choices=["Search", "Add", "Combos", "Explode"])
+    # if they wanna search
+    if option == "Search":
+        # create an Icespice object and call its search method to find a combo
+        details = easygui.choicebox(f"What combo is you searching for bestie boo?"
+                                             f"", choices=["Cancel"]+monster_dict).search()
