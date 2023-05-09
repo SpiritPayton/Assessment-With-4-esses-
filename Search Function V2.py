@@ -17,6 +17,7 @@ monster_dict = {
     "Wispghoul": {"Strength": 17, "Speed": 19, "Stealth": 3, "Cunning": 2}
 }
 
+monster_list = list(monster_dict.keys())
 
 while True:
     option = easygui.buttonbox("Grrrrr! How can I help you with your Monster Card collection?",
@@ -24,5 +25,8 @@ while True:
     # if they wanna search
     if option == "Search":
         # create an Icespice object and call its search method to find a combo
-        details = easygui.choicebox(f"What combo is you searching for bestie boo?"
-                                             f"", choices=["Cancel"]+monster_dict).search()
+        details = easygui.choicebox(f"What monster is you searching for bestie boo?"
+                                             f"", choices=["searchh"]+monster_list).search()
+        # if a combo is found show details & price
+        if details:
+            easygui.msgbox(details[1])
