@@ -1,4 +1,5 @@
 """This is the search function to search for existing monster cards on the catalogue
+it doesn't work lol
 """
 
 import easygui
@@ -23,6 +24,6 @@ while True:
                                "Monster Card Menu", choices=["Search", "Add", "Combos", "Explode"])
     # if they wanna search
     if option == "Search":
-        # create an Icespice object and call its search method to find a combo
+        # c
         details = easygui.choicebox(f"What combo is you searching for bestie boo?"
                                              f"", choices=["Cancel"]+monster_dict).search()

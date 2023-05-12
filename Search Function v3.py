@@ -1,3 +1,7 @@
+"""Still a search function to search for monster cards and show their stats
+version 3 asks for input from the user as to which monster card they want to search for
+"""
+
 import easygui
 
 

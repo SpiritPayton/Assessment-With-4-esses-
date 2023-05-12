@@ -1,4 +1,5 @@
 """This is the search function to search for existing monster cards on the catalogue
+version 2 displays all available monster cards which the user can pick from
 """
 
 import easygui
@@ -31,7 +32,7 @@ while True:
             monster_details = monster_dict[monster_choice]
             details_str = "\n".join([f"{k}: {v}" for k, v in monster_details.items()])
             easygui.msgbox(details_str)
-            # if a combo is found show details & price
+            #
         if details:
             monster_name = details[0]
             monster_details = details[1]
