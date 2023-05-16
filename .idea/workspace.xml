@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04b51501-b58d-4017-bc47-0879ec8460aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Search Function v4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search Function V2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search Function V2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search Function v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search Function v1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Search Function v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Search Function v3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asdasd.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Excercises/stuff/PRE-Takeaway.py" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python.Search Function V2">
+  <component name="RunManager" selected="Python.Search Function v3">
     <configuration name="Search Function V2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,9 +186,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Search Function v3" />
         <item itemvalue="Python.Search Function V2" />
         <item itemvalue="Python.Search Function v1 (1)" />
-        <item itemvalue="Python.Search Function v3" />
         <item itemvalue="Python.Search Function v3" />
         <item itemvalue="Python.Search Function v3" />
       </list>
@@ -217,5 +215,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Search Function V2.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
