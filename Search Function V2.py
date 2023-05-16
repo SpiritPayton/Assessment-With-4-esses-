@@ -21,7 +21,7 @@ monster_list = list(monster_dict.keys())
 
 while True:
     option = easygui.buttonbox("Grrrrr! How can I help you with your Monster Card collection?",
-                               "Monster Card Menu", choices=["Search", "Add", "Combos", "Explode"])
+                               "Monster Card Menu", choices=["Search", "Edit", "Add", "Explode"])
     # if they wanna search
     if option == "Search":
         # ask the user to select a monster to search for

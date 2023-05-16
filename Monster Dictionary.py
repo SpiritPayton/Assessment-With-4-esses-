@@ -16,17 +16,3 @@ monsters = {
     "Wispghoul": {"Strength": 17, "Speed": 19, "Stealth": 3, "Cunning": 2}
 }
 
-easygui.msgbox(monsters)
-# 亲爱的天父 我们的心感谢您
-# 性爱的天赋
-#闺蜜啥
-# 非常的不好了吗了啊
-
-import easygui
-
-easygui.buttonbox("Rawrrrrrr! what do you want to do?", "obliviate")
-
-# 亲爱的天父我们的心感谢您
-
-we real hot girl sh!
-
