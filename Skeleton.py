@@ -68,3 +68,14 @@ while True:
             monster_name, monster_details = monster
             details_str = "\n".join([f"{k}: {v}" for k, v in monster_details.items()])
             easygui.msgbox(details_str, title=monster_name)
+
+    # if they wanna edit
+    elif option == "Edit":
+        # create a MonsterCard object and call its edit method to modify a monster
+        monster = MonsterCard("", {}).edit()
+
+    # Add your own code for "Add" and "Explode" options if needed
+
+    # if they wanna quit
+    else:
+        break
