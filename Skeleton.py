@@ -19,7 +19,7 @@ monster_dict = {
 
 monster_list = list(monster_dict.keys())
 
-
+# chile
 class MonsterCard:
     def __init__(self, name, stats):
         self.name = name

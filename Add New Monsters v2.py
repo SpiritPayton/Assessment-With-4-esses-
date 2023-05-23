@@ -12,3 +12,4 @@ def add(self):
         easygui.msgbox(f"Successfully added {new_monster.name} to the Monster Card collection!")
     else:
         easygui.msgbox("No name entered for the new monster.")
+
