@@ -72,7 +72,7 @@ class MonsterCard:
 
 while True:
     option = easygui.buttonbox("Grrrrr! How can I help you with your Monster Card collection?",
-                               "Monster Card Menu", choices=["Search", "Edit", "Add", "Explode"])
+                               "Monster Card Menu", choices=["Search", "Edit", "Add", "Delete", "Explode"])
     # if they wanna search
     if option == "Search":
         # create a MonsterCard object and call its search method to find a monster
@@ -88,7 +88,6 @@ while True:
         # create a MonsterCard object and call its edit method to modify a monster
         monster = MonsterCard("", {}).edit()
 
-    # i'll add code for "Add" and "Explode" options
     # if they wanna add
     elif option == "Add":
         # create a MonsterCard object and call its add method to add a new monster
