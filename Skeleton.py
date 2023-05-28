@@ -1,4 +1,4 @@
-"""The basics of the Monster Card program without the functions
+"""The basics of the Monster Card program to test if the functions work
 """
 
 import easygui
