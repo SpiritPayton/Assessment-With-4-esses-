@@ -1,4 +1,5 @@
-"""The basics of the Monster Card program to test if the functions work
+"""The Monster Card program to test if the functions work
+version 1 uses a class thingy but I have chosen not to for my final
 """
 
 import easygui
@@ -18,6 +19,7 @@ monster_dict = {
 }
 
 monster_list = list(monster_dict.keys())
+
 
 # chile
 class MonsterCard:
